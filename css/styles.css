@@ -9,6 +9,11 @@ img {
   max-width: 100%;
 }
 
+.box-title {
+  background: #EB6126;
+  padding: 24px;
+}
+
 main {
   background-image: url(../img/mur.jpg);
 }
@@ -18,29 +23,44 @@ main {
   color: #94E241;
 }
 
-div {
+.card-info{
   background: #EB6126;
   color: #4C0634;
+  margin: 24px;
+  padding: 24px;
+}
+
+.card-info h2 {
+  font-size: 48px;
 }
 
 .card-hourly {
   background: #4C0634;
   color: #94E241;
+  margin: 24px;
+  padding: 24px;
+}
+
+.card-hourly h2 {
+  font-size: 23px;
 }
 
 p {
   font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
 }
 
 h2 {
   font-family: 'Luckiest Guy', cursive;
   text-align: center;
+  margin: 0 0 48px 0;
 }
 
 footer {
   background: #4C0634;
   color: #94E241;
   text-align: center;
+  padding: 24px;
 }
 
 .contenair-img {
