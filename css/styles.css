@@ -1,10 +1,24 @@
 body {
   max-width: 375px;
   margin: auto;
-  background: #ddd;
+  background: #B5A99C;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+main {
+  background-image: url(../img/mur.jpg);
+}
+
+div {
+  background: #EB6126;
+  color: #4C0634;
+}
+
+.card-hourly {
+  background: #4C0634;
+  color: #94E241;
 }
