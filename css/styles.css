@@ -13,6 +13,11 @@ main {
   background-image: url(../img/mur.jpg);
 }
 
+.nav {
+  background: #4C0634;
+  color: #94E241;
+}
+
 div {
   background: #EB6126;
   color: #4C0634;
@@ -21,4 +26,24 @@ div {
 .card-hourly {
   background: #4C0634;
   color: #94E241;
+}
+
+p {
+  font-family: 'Exo 2', sans-serif;
+}
+
+h2 {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+}
+
+footer {
+  background: #4C0634;
+  color: #94E241;
+  text-align: center;
+}
+
+.contenair-img {
+  display: flex;
+  flex-direction: row;
 }
