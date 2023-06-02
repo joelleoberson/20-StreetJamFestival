@@ -9,9 +9,13 @@ img {
   max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .box-title {
   background: #EB6126;
-  padding: 24px 48px 24px 48px;
+  padding: 18px 48px 18px 48px;
 }
 
 main {
@@ -21,6 +25,7 @@ main {
 a {
   color: #94E241;
   font-family: 'Exo 2', sans-serif;
+  text-decoration: none;
 }
 
 a:hover {
@@ -72,9 +77,11 @@ footer {
   color: #94E241;
   text-align: center;
   padding: 24px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .contenair-img {
   display: flex;
   flex-direction: row;
+  width: 188px
 }
