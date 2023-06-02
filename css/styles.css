@@ -11,16 +11,27 @@ img {
 
 .box-title {
   background: #EB6126;
-  padding: 24px;
+  padding: 24px 48px 24px 48px;
 }
 
 main {
   background-image: url(../img/mur.jpg);
 }
 
+a {
+  color: #94E241;
+  font-family: 'Exo 2', sans-serif;
+}
+
+a:hover {
+  color: #EB6126;
+}
+
 .nav {
   background: #4C0634;
   color: #94E241;
+  padding: 8px;
+  font-size: 9px;
 }
 
 .card-info{
@@ -42,7 +53,7 @@ main {
 }
 
 .card-hourly h2 {
-  font-size: 23px;
+  font-size: 24px;
 }
 
 p {
